@@ -16,7 +16,7 @@ git clone -b $branch https://github.com/mcguirepr89/BirdNET-Pi.git ${HOME}/BirdN
 $HOME/BirdNET-Pi/scripts/install_birdnet.sh
 if [ ${PIPESTATUS[0]} -eq 0 ];then
   echo "Installation completed successfully"
-  sudo reboot
+#   sudo reboot
 else
   echo "The installation exited unsuccessfully."
   exit 1
